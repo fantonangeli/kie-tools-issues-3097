@@ -1,0 +1,17 @@
+{
+  "id": "hello",
+  "specVersion": "0.8.0",
+  "name": "Hello World",
+  "start": "HelloWorld",
+  "dataInputSchema": "specs/workflow-minimal-schema.json",
+  "states": [
+    {
+      "name": "HelloWorld",
+      "type": "inject",
+      "data": {
+        "message": "Hello World"
+      },
+      "end": true
+    }
+  ]
+}
